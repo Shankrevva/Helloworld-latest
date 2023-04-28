@@ -5,4 +5,4 @@ FROM tomcat:latest
 MAINTAINER "inamatipooja1998@gmail.com"
 
 # copying the helloword target war file  application file from the source directory to destination HTTPD container directory
-COPY ./target/helloworld-1.1-SNAPSHOT.war/ /usr/local/tomcat/webapps
+COPY ./target/helloworld-1.1-SNAPSHOT.war/* /usr/local/tomcat/webapps
