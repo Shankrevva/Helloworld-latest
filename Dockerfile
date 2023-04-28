@@ -5,4 +5,4 @@ FROM tomcat:latest
 MAINTAINER "inamatipooja1998@gmail.com"
 
 # copying the helloword target war file  application file from the source directory to destination HTTPD container directory
-COPY ./brighton-html/ /usr/local/apache2/htdocs/
+COPY ./ /usr/local/tomcat/webapps
